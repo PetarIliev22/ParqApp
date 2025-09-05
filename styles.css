@@ -10884,6 +10884,26 @@ section {
   color: #2937f0;
 }
 
+.announcement-bar {
+  margin-bottom: 3rem;
+  background-color: #ffcc00;
+  color: #000;
+  text-align: center;
+  padding: 1px 12px;
+  font-size: 14px;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+
 /*!
  * html5-device-mockups (https://github.com/pixelsign/html5-device-mockups)
  * Copyright 2013 - 2017 pixelsign
@@ -11078,7 +11098,7 @@ footer a:hover, footer a:active, footer a:focus {
 
 .masthead {
   background-color: #f8f9fa;
-  padding-top: 9.5rem;
+  padding-top: 4.9rem;
   padding-bottom: 5rem;
 }
 .masthead .masthead-device-mockup {
