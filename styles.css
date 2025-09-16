@@ -10889,18 +10889,21 @@ section {
   background-color: #ffcc00;
   color: #000;
   text-align: center;
-  padding: 1px 12px;
+  padding: 1px;
   font-size: 14px;
   font-weight: 600;
   position: sticky;
   top: 0;
   z-index: 1000;
-  animation: pulse 2s infinite;
+}
+
+.pulse-text{
+  animation: pulse 3s infinite;
 }
 
 @keyframes pulse {
   0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.05); }
+  50% { transform: scale(0.93); }
 }
 
 
